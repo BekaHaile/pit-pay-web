@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Barlow Condensed";
+}
+
+html,
+body {
+  font-family: "Barlow Condensed";
+  font-size: 1em;
+  height: 100%;
+  background: #000033;
+}
+
+.Row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  align-items: normal;
+  justify-content: start;
+  width: 100%;
+}
+
+.Row > * {
+  margin-top: 15px;
+}
+
+.Col {
+  box-sizing: border-box;
+  min-height: 1px;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+  flex: 1 0 0px;
+  max-width: 100%;
+  margin-left: 0%;
+  right: auto;
+  left: auto;
+}
